@@ -1,0 +1,35 @@
+ <!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+
+<!-- 所有机型的宽度为 750rpx   高度 1334rpx  -->
+
+<!-- 1rpx = 500cm / 750 * 160 -->
+
+
+<!-- ip6  375   667高 -->
+<!-- 逻辑像素  1px = 2rpx -->
+<view class="container">
+  <image class="avatar" src="/image/avatar.png"></image>
+  <text class="name" decode="true" space="ensp">星&nbsp;&nbsp;&nbsp; 空</text>
+  <text class="welcome" bindtap="toNextPageTap">Hello World!</text>
+  <!-- <navigator open-type="navigateTo">详情页</navigator> -->
+</view>
+
+
+<!-- 点击态 -->
+<!-- <view class="ceshi-container" hover-class="ceshi-hov">
+  <view class="box" hover-class="box-hov"  hover-stop-propagation="true" hover-start-time="1000" >
+  </view>
+</view> -->
+

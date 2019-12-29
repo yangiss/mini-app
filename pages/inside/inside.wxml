@@ -1,0 +1,19 @@
+<!--pages/inside/inside.wxml-->
+
+<view class="container">
+  <view class="picture-box">
+    <image class="picture" mode="widthFix" src="/image/picture.png"></image>
+    <text class="title"> 是否要卸下十四卡了高速路口国际上来看关键时刻给是理工科是广大考生管理</text>
+  </view>
+  <view class="name-box">
+    <text class="name" bind:tap="ceshi">
+      --西门吹雪
+    </text>
+  </view>
+</view>
+
+<view bind:tap="parentTap" class="ceshi">
+  <!-- <view bind:tap="childTap" class="ceshi-child"></view> -->
+  
+  <view catch:tap="childTap" class="ceshi-child"></view>
+</view>

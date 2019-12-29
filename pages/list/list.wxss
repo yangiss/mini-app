@@ -1,0 +1,133 @@
+/* pages/list/list.wxss */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recommend-container{
+    padding: 0 25rpx;
+}
+.recommend-article{
+    text-align: center;
+}
+.date{
+    position: relative;
+    display: block;
+    font-size: 52rpx;
+    letter-spacing: 10rpx;
+    padding-top: 56rpx;
+    line-height: 112rpx;
+}
+.date::after{
+    position: absolute;
+    left: calc(50% - 40rpx);
+    content: '';
+    bottom: 0;
+    width: 114rpx;
+    height: 2rpx;
+    background-color: #999;
+}
+.recommend-title{
+    font-size: 28rpx;
+    line-height: 112rpx;
+}
+.recommend-cover{
+    width: 700rpx;
+    margin-top: 30rpx;
+}
+
+.recommend-box{
+    padding: 20rpx 25rpx;
+}
+.recommend-box text{
+    display: inline-block;
+    border: 1px solid #333;
+    /* margin-right: 28rpx; */
+    /* margin-top: 28rpx; */
+    /* padding: 16rpx 16rpx; */
+    padding: 10rpx 20rpx;
+    margin: 20rpx 20rpx 20rpx 0;
+    font-size: 28rpx;
+}
+.recommend-box text:first-of-type{
+    background-color: #000;
+    color: #fff;
+    font-size: bold;
+}
+
+
+
+/* 文章列表 */
+.recommend-list-container{
+    width: 100%;
+    background-color: #ebebeb;
+    padding: 35rpx 35rpx 0;
+    box-sizing: border-box;
+}
+.per-article{
+    background-color: #fff;
+    padding-bottom: 30rpx;
+    margin-bottom: 30rpx;
+}
+.per-article:last-of-type{
+    margin-bottom: 0;
+}
+.article-head{
+    padding: 20px;
+}
+.head_logo{
+    width: 60rpx;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 20rpx;
+}
+.article-head text{
+    font-size: 28rpx;
+    color: #666;
+}
+.article-cover image{
+    width: 100%;
+}
+.article-title {
+    padding: 0 28rpx;
+}
+.article-title text{
+    font-size: 40rpx;
+}
+
+.article-handle-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 28rpx;
+}
+.article-type text{
+    font-size: 28rpx;
+    font-weight: bold;
+}
+.article-handle{
+    display: flex;
+
+}
+.article-handle image{
+    width: 50rpx;
+    height: 50prx;
+    margin-left: 20rpx;
+}
+.btn{
+  display: inline-block;
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 30rpx;
+  border: none;
+  background: transparent;
+}
+.btn::after{
+  border: 0;
+}
+.article-handle .btn image{
+  width: 50rpx;
+  height: 50prx;
+  margin-left: -22rpx;
+}

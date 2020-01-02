@@ -1,0 +1,93 @@
+/* pages/type/type.wxss */
+.recommend-container{
+  position: relative;
+}
+.recommend-handle-box{
+  position: absolute;
+  width: 700rpx;
+  height: 140rpx;
+  background: #fff;
+  bottom: -70rpx;
+  left: calc(50% - 350rpx);
+  /* margin-left: -50%; */
+}
+.readbooke{
+  font-size: 40rpx;
+  padding-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+.recommend-cover{
+  width: 100%;
+}
+.recommend-list-container{
+    width: 100%;
+    background-color: #ebebeb;
+    padding: 115rpx 35rpx 0;
+    box-sizing: border-box;
+}
+.per-article{
+    background-color: #fff;
+    padding-bottom: 30rpx;
+    margin-bottom: 30rpx;
+}
+.per-article:last-of-type{
+    margin-bottom: 0;
+}
+.article-head{
+    padding: 20px;
+}
+.head_logo{
+    width: 60rpx;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 20rpx;
+}
+.article-head text{
+    font-size: 28rpx;
+    color: #666;
+}
+.article-cover image{
+    width: 100%;
+}
+.article-title {
+    padding: 0 28rpx;
+}
+.article-title text{
+    font-size: 40rpx;
+}
+
+.article-handle-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 28rpx;
+}
+.article-type text{
+    font-size: 28rpx;
+    font-weight: bold;
+}
+.article-handle{
+    display: flex;
+
+}
+.article-handle image{
+    width: 50rpx;
+    height: 50prx;
+    margin-left: 20rpx;
+}
+.btn{
+  display: inline-block;
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 30rpx;
+  border: none;
+  background: transparent;
+}
+.btn::after{
+  border: 0;
+}
+.article-handle .btn image{
+  width: 50rpx;
+  height: 50prx;
+  margin-left: -22rpx;
+}

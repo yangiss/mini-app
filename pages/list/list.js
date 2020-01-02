@@ -63,6 +63,13 @@ Page({
 
    
   },
+  
+  onArticleTypeTap: function (e) {
+    let typeId = e.currentTarget.dataset.articletypetap;
+    wx.navigateTo({
+      url: '/pages/type/type?typeId=' + typeId
+    })
+  },
   getLikeData: function () {
     let listLikeStorage = wx.getStorageSync('listLike');
 
@@ -73,7 +80,6 @@ Page({
       listLike: listLikeStorage
     })
 
-    console.log(this.data.listLike);
   },
   onLikeTap: function (e) {
     let _index = e.currentTarget.dataset.index;
